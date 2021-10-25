@@ -24,7 +24,7 @@ body{
 	text-align: center;
 }
 .header__logo{
-	padding: 88px 0 60px;
+	padding: 19px 0 19px;
 }
 .menu{
 	border-top: 2px solid #C4C4C4;
@@ -48,7 +48,7 @@ body{
 	border-right: 1px solid #c4c4c4;
 	transition: all 0.3s;
 }
-.menu__list-link--active,
+
 .menu__list-link:hover{
 	color:white;
 	background-color: black;
@@ -336,10 +336,6 @@ body{
 	text-decoration: none;
 	display: inline-block;
 }
-.footer {
-	
-
-}
 .footer__top {
 	background-color: black;
 	color: white;
@@ -356,8 +352,7 @@ body{
 	widows: 250px;
 	margin-right: 50px;
 }
-.footer__menu-item {
-}
+
 .footer__menu-link {
 	font-size: 24px;
 	line-height: 36px;
@@ -407,6 +402,54 @@ body{
 	padding: 3px 23px;
 	text-align: center;
 }
+/* Full-width input fields */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit/register button */
+  .registerbtn {
+	background-color: #04d5fa;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+	opacity:1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+	color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+	background-color: #f1f1f1;
+	text-align: center;
+  }
+
 @media (max-width: 992px) {
 	.search__form{
 		flex-wrap: wrap;
